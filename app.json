@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/myInfo/myInfo",
+    "pages/idleItem/idleItem"
+  ],
+  "window": {
+    "backgroundColor": "#CC00FF",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "青云闲置",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "text": "闲置",
+        "pagePath": "pages/idleItem/idleItem"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/myInfo/myInfo"
+      }
+    ],
+    "selectedColor": "#16E94B"
+  }
+}
