@@ -2,6 +2,5 @@
 <view class="indexContainer">
   <image class="headImg" src='{{userInfo.avatarUrl}}'></image>
   <text class="nickName">{{userInfo.nickName}}</text>
-  <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" hidden="{{isAuthorization ? 'none' : ''}}">授权登录</button>
-
+  <button class="loginBtn" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" hidden="{{isAuthorization ? 'none' : ''}}">授权登录</button>
 </view>

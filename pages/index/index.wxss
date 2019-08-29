@@ -4,6 +4,11 @@
   align-items: center;
 }
 
+.loginBtn {
+  color: green;
+  background: greenyellow;
+}
+
 .headImg{
   margin: 100rpx 0;
   width: 200rpx;

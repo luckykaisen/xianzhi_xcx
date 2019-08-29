@@ -1,12 +1,15 @@
-// pages/index/index.js
+// pages/idleItem/idleItem.js
+
+var app = getApp()
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    userInfo : {},
-    isAuthorization : false
+    FONT: app.FONT,
+    COLOR: app.COLOR,
   },
 
   /**
@@ -14,19 +17,6 @@ Page({
    */
   onLoad: function (options) {
 
-    wx.getSetting({
-      success : (data) => {
-        if (data.authSetting['scope.userInfo']) {
-          this.getUserInfo();
-          this.setData({
-            isAuthorization : true
-          });
-          this.gotoIdleItemPage();
-        } else {
-          console.log('授权失败');
-        }
-      }
-    });
   },
 
   /**
@@ -76,27 +66,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  bindGetUserInfo(data) {
-    this.getUserInfo();
-    this.gotoIdleItemPage;
-  },
-
-  getUserInfo() {
-    wx.getUserInfo({
-      success : (data) => {
-        this.setData({
-          userInfo : data.userInfo,
-          isAuthorization : true
-        });
-      }
-    });
-  },
-
-  gotoIdleItemPage() {
-    wx.switchTab({
-      url: '/pages/idleItem/list/list'
-    });
   }
 })

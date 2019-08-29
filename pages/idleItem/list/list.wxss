@@ -1,0 +1,121 @@
+/* pages/idleItem/idleItem.wxss */
+@import '/pages/template/idleItem/idleItem.wxss';
+
+.top-container{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 86rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  z-index: 10;
+}
+
+.search-box{
+  width: 568rpx;
+  height: 54rpx;
+  margin: 16rpx 24rpx 16rpx 80rpx;
+  background-color: #ECECEE;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-box image{
+  width: 26rpx;
+  height: 26px;
+}
+.search-placeholder{
+  font-size: 28rpx;
+  color: #999;
+  margin-left: 16rpx;
+}
+.search-input{
+  width: 504rpx;
+  height: 54rpx;
+  color: #000;
+  font-size: 28rpx;
+}
+.banner-box{
+  width: 100%;
+  height: 260rpx;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+
+.item-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20rpx;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  margin: 0rpx 10rpx 10rpx 10rpx;
+  align-items:stretch;  
+  justify-content: space-between;
+}
+
+.item-title{
+  margin: 5rpx;
+}
+
+.item-address{
+  margin-top: 20rpx;
+}
+
+.item-image {
+  width: 190rpx;
+  height: 190rpx;
+  margin-left: 10rpx;
+  border-radius: 10rpx;
+}
+
+.item-info{
+  width: 510rpx;
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.item-info-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    justify-content: flex-start;
+}
+
+.item-info-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    justify-content: flex-end;
+}
+
+.user{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 500rpx;
+  margin-left: 20rpx;
+  line-height:60rpx;
+}
+
+.user-image{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 100rpx;
+}
+
+.user-name{
+
+  margin-left: 15rpx;
+}

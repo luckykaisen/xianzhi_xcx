@@ -1,11 +1,13 @@
 {
   "pages": [
+    "pages/idleItem/create/create",
     "pages/index/index",
     "pages/myInfo/myInfo",
-    "pages/idleItem/idleItem"
+    "pages/chat/chat",
+    "pages/idleItem/list/list"
   ],
   "window": {
-    "backgroundColor": "#CC00FF",
+    "backgroundColor": "#F7F7F7",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "青云闲置",
@@ -16,13 +18,22 @@
     "list": [
       {
         "text": "闲置",
-        "pagePath": "pages/idleItem/idleItem"
+        "pagePath": "pages/idleItem/list/list",
+        "iconPath": "/images/icon/idleItem.png",
+        "selectedIconPath": "/images/icon/idleItemSel.png"
+      },
+      {
+        "text": "发布",
+        "pagePath": "pages/idleItem/create/create",
+        "iconPath": "/images/icon/fabu.png",
+        "selectedIconPath": "/images/icon/fabuSel.png"
       },
       {
         "text": "我的",
-        "pagePath": "pages/myInfo/myInfo"
+        "pagePath": "pages/myInfo/myInfo",
+        "iconPath": "/images/icon/my.png",
+        "selectedIconPath": "/images/icon/mySel.png"
       }
-    ],
-    "selectedColor": "#16E94B"
+    ]
   }
 }

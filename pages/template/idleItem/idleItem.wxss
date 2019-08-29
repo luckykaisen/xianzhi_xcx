@@ -1,0 +1,33 @@
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.item-image {
+  width: 190rpx;
+  height: 190rpx;
+}
+
+.item-info{
+  width: 550rpx;
+  margin-bottom: 25rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+  justify-content: space-between;
+}
+
+.item-info-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    justify-content: flex-start;
+}
+
+.item-info-right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    justify-content: flex-end;
+}

@@ -1,12 +1,11 @@
-// pages/index/index.js
+// pages/chat/chat.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    userInfo : {},
-    isAuthorization : false
+
   },
 
   /**
@@ -14,19 +13,6 @@ Page({
    */
   onLoad: function (options) {
 
-    wx.getSetting({
-      success : (data) => {
-        if (data.authSetting['scope.userInfo']) {
-          this.getUserInfo();
-          this.setData({
-            isAuthorization : true
-          });
-          this.gotoIdleItemPage();
-        } else {
-          console.log('授权失败');
-        }
-      }
-    });
   },
 
   /**
@@ -76,27 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  bindGetUserInfo(data) {
-    this.getUserInfo();
-    this.gotoIdleItemPage;
-  },
-
-  getUserInfo() {
-    wx.getUserInfo({
-      success : (data) => {
-        this.setData({
-          userInfo : data.userInfo,
-          isAuthorization : true
-        });
-      }
-    });
-  },
-
-  gotoIdleItemPage() {
-    wx.switchTab({
-      url: '/pages/idleItem/list/list'
-    });
   }
 })

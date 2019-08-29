@@ -1,11 +1,30 @@
-// pages/idleItem/idleItem.js
+// pages/idleItem/create/create.js
+
+const app = getApp();
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    COLOR : app.COLOR,
+    FONT : app.FONT,
+    categoryIndex : 0,
+    categories : [
+      {
+        "id" : 1,
+        "name" : "家具"
+      },
+      {
+        "id": 2,
+        "name": "电器"
+      },
+      {
+        "id": 3,
+        "name": "生活"
+      }
+    ]
   },
 
   /**
@@ -62,5 +81,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  bindCategoryPick(e) {
+    this.setData({
+      categoryIndex: e.detail.value
+    });
   }
 })

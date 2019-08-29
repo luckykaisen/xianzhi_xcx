@@ -1,0 +1,22 @@
+/* pages/idleItem/create/create.wxss */
+.item-item-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.item{
+  display: flex;
+  flex-direction: row;
+  margin: 40rpx 0 0 40rpx;
+}
+
+.category-pick{
+  width: 200rpx;
+}
+
+.item-input{
+  display: flex;
+  flex-direction: row;
+  margin-left: 30rpx;  
+  justify-content: flex-end;
+}

@@ -1,0 +1,24 @@
+
+  <template name="idleItem">
+  <view class="container">
+    <view>
+      <image class="item-image" src="/images/avatar/avatar.jpg"></image>
+    </view>
+    <view class="item">
+      <view>
+        <view>
+          <text>2.0x1.5双人床</text>
+        </view>
+        <view  style='color: {{COLOR.C4}}; font-size:{{FONT.T7}};'>花园新区</view>
+        <view class="item-info">
+          <view class="item-info-left">
+            <view>￥200</view>
+          </view>
+          <view class="item-info-right">
+            <view>100人想要</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
