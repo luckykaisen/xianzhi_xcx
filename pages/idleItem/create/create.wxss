@@ -86,30 +86,13 @@
 .first-row-image{
   display: flex;
   flex-direction: column;
-  margin: 30rpx;
+  margin: 20rpx;
   justify-content: center;
 }
 
 .item-image {
-  width: 260rpx;
-  height: 260rpx;
-}
-
-.item-image-btn {
   width: 200rpx;
   height: 200rpx;
-}
-
-.item-description {
-  display: flex;
-  flex-direction: row;
-  margin: 20rpx 20rpx 0 20rpx;
-  justify-content: center;
-}
-
-.item-description-text {
-  height: 280rpx;
-  border: 1rpx solid #969696;
 }
 
 .finish{

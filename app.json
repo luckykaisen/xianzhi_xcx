@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/idleItem/detail/detail",
     "pages/idleItem/create/create",
     "pages/index/index",
     "pages/myInfo/myInfo",
@@ -18,7 +19,7 @@
     "list": [
       {
         "text": "闲置",
-        "pagePath": "pages/idleItem/list/list",
+        "pagePath": "pages/idleItem/detail/detail",
         "iconPath": "/images/icon/idleItem.png",
         "selectedIconPath": "/images/icon/idleItemSel.png"
       },

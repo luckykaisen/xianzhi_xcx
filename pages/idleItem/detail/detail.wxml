@@ -1,0 +1,28 @@
+<!--pages/idleItem/detail/detail.wxml-->
+<view>
+  <view class="user-info">
+    <view>
+      <image class="user-info-image" src="/images/avatar/avatar.jpg"></image>
+    </view>
+    <view class="user-basics-parent">
+      <view class="user-basics-info">
+        <view class="user-name">张三</view>
+        <view class="user-gender">男</view>
+      </view>
+      <view class="user-basics-info">
+        <view>45分钟前来过</view>
+      </view>
+    </view>
+  </view>  
+  <view class="item-info">
+    <view class="money">￥200</view>
+    <view class="address">青云店镇花园新区</view>
+  </view>
+  <view class="item-description">
+    <view>sdfasdfasdfasds士大夫士大夫手动阀撒旦发射点发fasdfasd啊士大夫阿斯顿ffsd</view>
+  </view>
+  <!-- <view>
+    <image src="/images/avatar/avatar.jpg"></image>
+    <image src="/images/avatar/avatar.jpg"></image>
+  </view> -->
+</view>

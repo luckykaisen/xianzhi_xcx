@@ -1,0 +1,55 @@
+/* pages/idleItem/detail/detail.wxss */
+
+.user-info-image {
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 100rpx;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: row;
+  margin: 25rpx 20rpx 10rpx 25rpx;
+  border-bottom: 1rpx solid #b6b4b4;
+}
+
+.user-basics-parent {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+
+.user-name {
+  margin-left: 5rpx;
+}
+
+.user-gender {
+  margin-left: 50rpx;
+}
+
+.user-basics-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15rpx;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.money {
+  margin-left: 60rpx;
+}
+
+.address {
+  margin-left: 60rpx;
+}
+
+.item-description {
+  display: flex;
+  flex-direction: column;
+  width: 700rpx;
+  margin: 20rpx 20rpx 0 20rpx; 
+  text-indent: 70rpx;
+}
