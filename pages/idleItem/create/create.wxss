@@ -1,22 +1,120 @@
 /* pages/idleItem/create/create.wxss */
-.item-item-container{
+
+.item-item-container {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
-.item{
+.item {
+  width: 730rpx;
+  height: 108rpx;
+  border-bottom: 1rpx solid #b6b4b4;
   display: flex;
   flex-direction: row;
-  margin: 40rpx 0 0 40rpx;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.category-pick{
-  width: 200rpx;
-}
-
-.item-input{
+.item-pick {
+  width: 530rpx;
   display: flex;
   flex-direction: row;
-  margin-left: 30rpx;  
+  align-items: center;
   justify-content: flex-end;
+  font-size: 29rpx;
+}
+
+.item-left {
+  width: 200rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.item-right {
+  width: 530rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.item-input {
+  font-size: 29rpx;
+  color: #969696;
+  text-align: right;
+  outline: none;
+  border: none;
+}
+
+.must-image {
+  width: 10rpx;
+  height: 10rpx;
+  padding-right: 12rpx;
+}
+
+.info-nav {
+  width: 20rpx;
+  height: 50rpx;
+  padding-right: 20rpx;
+}
+
+.info-value {
+  color: #969696;
+  font-size: 29rpx;
+  padding-right: 20rpx;
+  width: 450rpx;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item-label {
+  color: #515151;
+  font-size: 29rpx;
+}
+
+.add-image {
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 20rpx 0 20rpx;
+  justify-content: center;
+}
+
+.first-row-image{
+  display: flex;
+  flex-direction: column;
+  margin: 30rpx;
+  justify-content: center;
+}
+
+.item-image {
+  width: 260rpx;
+  height: 260rpx;
+}
+
+.item-image-btn {
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.item-description {
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 20rpx 0 20rpx;
+  justify-content: center;
+}
+
+.item-description-text {
+  height: 280rpx;
+  border: 1rpx solid #969696;
+}
+
+.finish{
+  margin-top: 10rpx;
+  width:500rpx;
+  height: 100rpx;
+  background-color: gainsboro;
 }

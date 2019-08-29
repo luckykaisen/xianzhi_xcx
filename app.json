@@ -7,7 +7,7 @@
     "pages/idleItem/list/list"
   ],
   "window": {
-    "backgroundColor": "#F7F7F7",
+    "backgroundColor": "#1AE6BD",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "青云闲置",

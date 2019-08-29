@@ -3,31 +3,68 @@
 <view>
   <view class="item-container">
     <view class="item">
-      <view>名称</view>
-      <view class="item-input">
-        <input placeholder='物品名称'></input>
+      <view class="item-left">
+        <image class="must-image" mode='aspectFit' src="/images/must.png"></image>
+        <view class="item-label">名称</view>
+      </view>
+      <view class="item-right">
+        <input class="item-input" placeholder='物品名称'></input>
       </view>
     </view>
     <view class="item">
-      <view class="item-label">价格</view>
-      <view class="item-input">
-        <input placeholder='价格(元)'></input>
+      <view class="item-left">
+        <image class="must-image" mode='aspectFit' src="/images/must.png"></image>
+        <view class="item-label">价格</view>
+      </view>
+      <view class="item-right">
+        <input class="item-input" placeholder='价格(元)'></input>
       </view>
     </view>
     <view class="item">
-      <view>地址</view>
-      <view class="item-input">
-        <input placeholder='大兴区青云店镇'></input>
+      <view class="item-left">
+        <image class="must-image" mode='aspectFit' src="/images/must.png"></image>
+        <view class="item-label">地址</view>
+      </view>
+      <view class="item-right">
+        <input class="item-input" placeholder='大兴区青云店镇'></input>
       </view>
     </view>
     <view class="item">
-      <view>分类</view>
-      <view class="item-input">
-        <picker class="category-pick" mode="selector" value="{{index}}" range-key="name" range="{{categories}}" bindchange="bindCategoryPick">
-          <view>{{categories[categoryIndex].name}}</view>
+      <view class="item-left">
+        <image class="must-image" mode='aspectFit' src="/images/must.png"></image>
+        <view class="item-label">分类</view>
+      </view>
+      <view class="item-right">
+        <picker class="item-pick" mode="selector" value="{{index}}" range-key="name" range="{{categories}}" bindchange="bindCategoryPick">
+          <view class="info-value">{{categories[categoryIndex].name}}</view>
         </picker>
+        <image class="info-nav" mode="aspectFit" src="/images/details.png"></image>
       </view>
+    </view>
+    <view class="item">
+      <view class="item-left">
+        <image class="must-image" mode='aspectFit' src="/images/must.png"></image>
+        <view class="item-label">宝贝描述</view>
+      </view>
+      <view class="item-right">
+        <input class="item-input" placeholder='空调'></input>
+        <image class="info-nav" mode="aspectFit" src="/images/details.png"></image>
+      </view>
+    </view>
+
+
+    <view class="add-image">
+      <view class="first-row-image">
+        <image class="item-image" src="/images/addImage.png"></image>
+        <image class="item-image" src="/images/addImage.png"></image>
+      </view>
+      <view class="first-row-image">
+        <image class="item-image" src="/images/addImage.png"></image>
+        <image class="item-image" src="/images/addImage.png"></image>
+      </view>
+    </view>
+    <view>
+      <button class="finish">完成</button>
     </view>
   </view>
-
 </view>

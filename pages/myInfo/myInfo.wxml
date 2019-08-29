@@ -1,2 +1,9 @@
 <!--pages/myInfo/myInfo.wxml-->
-<text>pages/myInfo/myInfo.wxml</text>
+<view class="container">
+  <view class="start">
+    <view>123</view>
+  </view>
+  <view class="end">
+    <view>456</view>
+  </view>
+</view>
