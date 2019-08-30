@@ -66,5 +66,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  getDetail() {
+    wx.navigateTo({
+      url: '/pages/idleItem/detail/detail',
+    })
   }
 })

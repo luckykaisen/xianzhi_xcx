@@ -1,11 +1,11 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/idleItem/list/list",
     "pages/idleItem/detail/detail",
     "pages/idleItem/create/create",
-    "pages/index/index",
     "pages/myInfo/myInfo",
-    "pages/chat/chat",
-    "pages/idleItem/list/list"
+    "pages/chat/chat"
   ],
   "window": {
     "backgroundColor": "#1AE6BD",
@@ -19,7 +19,7 @@
     "list": [
       {
         "text": "闲置",
-        "pagePath": "pages/idleItem/detail/detail",
+        "pagePath": "pages/idleItem/list/list",
         "iconPath": "/images/icon/idleItem.png",
         "selectedIconPath": "/images/icon/idleItemSel.png"
       },

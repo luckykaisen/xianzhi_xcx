@@ -1,9 +1,4 @@
 <!--pages/myInfo/myInfo.wxml-->
 <view class="container">
-  <view class="start">
-    <view>123</view>
-  </view>
-  <view class="end">
-    <view>456</view>
-  </view>
+  <view class="modify">编辑</view>
 </view>

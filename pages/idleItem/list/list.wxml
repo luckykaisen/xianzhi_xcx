@@ -12,7 +12,7 @@
     <view style='height:86rpx;'></view>
     <view>
       <view style='width:100%; height:16rpx; background-color:white;'></view>
-      <view class="item-container">
+      <view catchtap="getDetail" class="item-container">
         <view>
           <image class="item-image" src="/images/avatar/avatar.jpg"></image>
         </view>

@@ -1,5 +1,5 @@
 <!--pages/idleItem/detail/detail.wxml-->
-<view>
+<view class="detail-container">
   <view class="user-info">
     <view>
       <image class="user-info-image" src="/images/avatar/avatar.jpg"></image>
@@ -7,22 +7,75 @@
     <view class="user-basics-parent">
       <view class="user-basics-info">
         <view class="user-name">张三</view>
-        <view class="user-gender">男</view>
       </view>
       <view class="user-basics-info">
-        <view>45分钟前来过</view>
+        <view class="time">45分钟前来过</view>
       </view>
     </view>
-  </view>  
+    <view class="phone">
+      <image catchtap="call" class="phone-image" src="/images/phone.png"></image>
+    </view>
+  </view>
   <view class="item-info">
     <view class="money">￥200</view>
     <view class="address">青云店镇花园新区</view>
   </view>
   <view class="item-description">
-    <view>sdfasdfasdfasds士大夫士大夫手动阀撒旦发射点发fasdfasd啊士大夫阿斯顿ffsd</view>
+    <view class="description">空调全新</view>
   </view>
-  <!-- <view>
-    <image src="/images/avatar/avatar.jpg"></image>
-    <image src="/images/avatar/avatar.jpg"></image>
-  </view> -->
+  <view>
+    <view class="detail">
+      <image src="/images/avatar/avatar.jpg"></image>
+      <image src="/images/avatar/avatar.jpg"></image>
+    </view>
+  </view>
+  <view class="view">
+    <view class="view-count">浏览11</view>
+  </view>
+  <view class="message-container">
+    <view class="message">
+      <view>全部留言</view>
+    </view>
+    <view class="message-info">
+      <view class="message-header">
+        <view>
+          <image class="message-image" src="/images/avatar/avatar.jpg"></image>
+        </view>
+        <view>
+          <view class="message-name">李四</view>
+        </view>
+      </view>
+      <view class="message-content">
+        <view>有问题能不能退？</view>
+      </view>
+    </view>
+  </view>
+  <view>
+    <view class="bottom-box">
+      <view class="box-item">
+        <view>
+          <image class="box-image" src="/images/share.png"></image>
+        </view>
+        <view class="box-text">
+          <view>分享</view>
+        </view>
+      </view>
+      <view class="box-item">
+        <view>
+          <image class="box-image" src="/images/guanzhu.png"></image>
+        </view>
+        <view class="box-text">
+          <view>关注</view>
+        </view>
+      </view>
+      <view class="box-item">
+        <view>
+          <image class="box-image" src="/images/liuyan.png"></image>
+        </view>
+        <view class="box-text">
+          <view>留言</view>
+        </view>
+      </view>
+    </view>
+  </view>
 </view>
