@@ -5,14 +5,15 @@
     "pages/idleItem/detail/detail",
     "pages/idleItem/create/create",
     "pages/chat/chat",
-    "pages/myInfo/home/home"
+    "pages/myInfo/home/home",
+    "pages/myInfo/publish/publish"
   ],
   "window": {
     "backgroundColor": "#1AE6BD",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "青云闲置",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#1AE6BD"
   },
   "sitemapLocation": "sitemap.json",
   "tabBar": {

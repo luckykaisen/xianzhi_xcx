@@ -1,0 +1,32 @@
+<!--pages/myInfo/publish/publish.wxml-->
+<view class="publish-container">
+  <view>
+    <view class="first-line">
+      <image src="/images/avatar/avatar.jpg"></image>
+      <view class="title">
+        <view>谷歌地球pro,google earth</view>
+        <view class="money">￥200</view>
+        <view class="view">
+          <view>留言12</view>
+          <view>浏览23</view>
+        </view>
+      </view>
+    </view>
+    <view class="line"></view>
+    <view class="second-line">
+      <view class="modify">
+        <image src="/images/modify.png"></image>
+        <text>编辑</text>
+      </view>
+      <view class="modify">
+        <image src="/images/sold_out.png"></image>
+        <text>下架</text>
+      </view>
+      <view class="modify">
+        <image src="/images/delete.png"></image>
+        <text>删除</text>
+      </view>
+    </view>
+  </view>
+
+</view>

@@ -1,8 +1,5 @@
 {
   "usingComponents": {},
   "backgroundColor": "#1AE6BD",
-  "backgroundTextStyle": "light",
-  "navigationBarBackgroundColor": "#1AE6BD",
-  "navigationBarTitleText": "发布闲置",
-  "navigationBarTextStyle": "black"
+  "navigationBarTitleText": "发布闲置"
 }

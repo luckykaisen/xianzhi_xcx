@@ -1,4 +1,4 @@
-// pages/myInfo/home/home.js
+// pages/myInfo/publish/publish.js
 Page({
 
   /**
@@ -62,11 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  publish() {
-    wx.navigateTo({
-      url: '/pages/myInfo/publish/publish'
-    })
   }
 })
