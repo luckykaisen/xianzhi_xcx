@@ -1,4 +1,4 @@
-// pages/myInfo/myInfo.js
+// pages/myInfo/home/home.js
 Page({
 
   /**

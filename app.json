@@ -4,8 +4,8 @@
     "pages/idleItem/list/list",
     "pages/idleItem/detail/detail",
     "pages/idleItem/create/create",
-    "pages/myInfo/myInfo",
-    "pages/chat/chat"
+    "pages/chat/chat",
+    "pages/myInfo/home/home"
   ],
   "window": {
     "backgroundColor": "#1AE6BD",
@@ -31,7 +31,7 @@
       },
       {
         "text": "我的",
-        "pagePath": "pages/myInfo/myInfo",
+        "pagePath": "pages/myInfo/home/home",
         "iconPath": "/images/icon/my.png",
         "selectedIconPath": "/images/icon/mySel.png"
       }

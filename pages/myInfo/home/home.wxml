@@ -1,0 +1,17 @@
+<!--pages/myInfo/home/home.wxml-->
+<view class="home-container">
+  <view class="info">
+    <image src="/images/avatar/avatar.jpg"></image>
+    <text>张三</text>
+  </view>
+  <view class="line"></view>
+  <view>
+    <view class="btn">
+      <button>我发布的宝贝</button>
+      <button>我关注的宝贝</button>
+      <button>我的留言</button>
+      <button>关于我们</button>
+      <button class="logout">退出登录</button>
+    </view>
+  </view>
+</view>

@@ -1,6 +1,6 @@
 /* pages/idleItem/detail/detail.wxss */
 
-.detail-container{
+.detail-container {
   display: flex;
   flex-direction: column;
   padding-bottom: 110rpx;
@@ -11,7 +11,6 @@
   height: 110rpx;
   border-radius: 20rpx;
 }
-
 
 .user-info {
   display: flex;
@@ -28,11 +27,11 @@
   width: 450rpx;
 }
 
-.phone{
+.phone {
   justify-items: flex-end;
 }
 
-.phone-image{
+.phone-image {
   width: 98rpx;
   height: 110rpx;
 }
@@ -40,13 +39,13 @@
 .user-name {
   margin-left: 5rpx;
   font-size: 30rpx;
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-weight: bold;
 }
 
-.time{
+.time {
   font-size: 28.9rpx;
-  color: #4D4D4D;
+  color: #4d4d4d;
 }
 
 .user-basics-info {
@@ -70,22 +69,22 @@
 .address {
   margin-left: 50rpx;
   font-size: 31rpx;
-  color: #333333;
+  color: #333;
 }
 
 .item-description {
   display: flex;
   flex-direction: column;
   width: 700rpx;
-  margin: 20rpx 20rpx 0 20rpx; 
+  margin: 20rpx 20rpx 0 20rpx;
   text-indent: 70rpx;
 }
 
-.description{
+.description {
   font-size: 30rpx;
 }
 
-.detail{
+.detail {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,52 +100,52 @@
   border-radius: 8rpx;
 }
 
-.view{
+.view {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   font-size: 29rpx;
-  color: #AAAAAA;
+  color: #aaa;
 }
 
-.message-container{
+.message-container {
   display: flex;
   flex-direction: column;
   background-color: white;
   width: 100%;
-  margin: 18rpx 0 18rpx 0;
+  margin: 18rpx 0 0 0;
   padding-bottom: 8rpx;
 }
 
-.message{
+.message {
   margin: 10rpx 0 20rpx 20rpx;
 }
 
-.message-header{
+.message-header {
   display: flex;
   flex-direction: row;
 }
 
-.message-image{
+.message-image {
   width: 50rpx;
   height: 50rpx;
-  padding-left: 40rpx; 
+  padding-left: 40rpx;
   border-radius: 5rpx;
 }
 
-.message-name{
-  padding-left: 20rpx; 
+.message-name {
+  padding-left: 20rpx;
 }
 
-.message-info{
-  border-bottom: 1rpx solid #E6E6E6;
+.message-info {
+  border-bottom: 1rpx solid #e6e6e6;
 }
 
-.message-content{
+.message-content {
   margin: 0 0 8rpx 100rpx;
 }
 
-.bottom-box{
+.bottom-box {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -157,17 +156,17 @@
   bottom: 0rpx;
 }
 
-.box-image{
+.box-image {
   width: 68rpx;
   height: 71rpx;
 }
 
-.box-item{
+.box-item {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.box-text{
+.box-text {
   font-size: 25rpx;
 }
