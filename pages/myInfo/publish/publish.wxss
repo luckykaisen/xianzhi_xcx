@@ -39,11 +39,6 @@
   height: 50rpx;
 }
 
-.line{
-  height: 1rpx;
-  background-color: #3333;
-}
-
 .title{
   margin-left: 20rpx;
   align-items: center;
@@ -52,4 +47,14 @@
 
 .money{
   color: red;
+}
+
+.goods{
+  width: 90%;
+  margin: 20rpx 5% 0 5%;
+}
+
+.bottom-line{
+  height: 1rpx;
+   background-color: black;
 }
