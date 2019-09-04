@@ -1,0 +1,74 @@
+/* pages/myInfo/publish/publish.wxss */
+
+.publish-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.first-line{
+  display: flex;
+  flex-direction: row;
+}
+
+.goods-image{
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.second-line{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5rpx;
+}
+
+.modify{
+  display: flex;
+  flex-direction: column;
+  font-size: 23rpx;
+}
+
+.modify image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.title{
+  margin-left: 20rpx;
+  align-items: center;
+  font-size: 32rpx;
+}
+
+.money{
+  color: red;
+}
+
+.goods{
+  width: 90%;
+  margin: 20rpx 5% 0 5%;
+}
+
+.bottom-line{
+  height: 1rpx;
+   background-color: black;
+}
+
+.cancel{
+  width: 100rpx;
+  height: 100rpx;
+  align-items: center;
+}
+
+.height-line{
+  width: 1rpx;
+  background-color: #ddd;
+  margin-left: 20rpx;
+}
+
+.cancel-container{
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  font-size: 23rpx;
+  align-items: center;
+}

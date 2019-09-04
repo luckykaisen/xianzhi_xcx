@@ -6,7 +6,9 @@
     "pages/idleItem/create/create",
     "pages/chat/chat",
     "pages/myInfo/home/home",
-    "pages/myInfo/publish/publish"
+    "pages/myInfo/publish/publish",
+    "pages/myInfo/like/like",
+    "pages/myInfo/message/message"
   ],
   "window": {
     "backgroundColor": "#1AE6BD",

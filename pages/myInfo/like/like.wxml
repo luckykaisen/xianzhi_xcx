@@ -1,0 +1,19 @@
+<!--pages/myInfo/publish/publish.wxml-->
+<view class="publish-container">
+  <view class="goods">
+    <view class="first-line">
+      <image class="goods-image" src="/images/avatar/avatar.jpg"></image>
+      <view class="title">
+        <view>谷歌地球pro,google earth</view>
+        <view class="money">￥200</view>
+      </view>
+      <view class="height-line"></view>
+      <view class="cancel-container">
+        <image class="cancel" src="/images/cancel_start.png"></image>
+        <text>取消关注</text>
+      </view>
+
+    </view>
+    <view class="bottom-line"></view>
+  </view>
+</view>

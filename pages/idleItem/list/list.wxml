@@ -36,5 +36,35 @@
         <view class="user-name">张三</view>
       </view>
     </view>
+
+
+    <view>
+      <view style='width:100%; height:16rpx; background-color:white;'></view>
+      <view catchtap="getDetail" class="item-container">
+        <view>
+          <image class="item-image" src="/images/avatar/avatar.jpg"></image>
+        </view>
+        <view>
+          <view class="item">
+            <view class="item-title" style='color:{{COLOR.C3}}; font-size:{{FONT.T2}};'>2.0x1.5双人床</view>
+            <view class="item-address" style='color: {{COLOR.C4}}; font-size:{{FONT.T5}};'>大兴区青云店镇花园新区</view>
+            <view class="item-info">
+              <view class="item-info-left">
+                <view style='color:{{COLOR.C8}}; font-size:{{FONT.T3}};'>￥200</view>
+              </view>
+              <view class="item-info-right">
+                <view style='color:{{COLOR.C2}}; font-size:{{FONT.T6}}'>100人想要</view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="user">
+        <image class="user-image" src="/images/avatar/avatar.jpg"></image>
+        <view class="user-name">张三</view>
+      </view>
+    </view>
+
+    
   </view>
 </view>

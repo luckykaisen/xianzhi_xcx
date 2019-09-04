@@ -1,0 +1,12 @@
+<!--pages/myInfo/message/message.wxml-->
+<view class="message-container">
+  <view class="message">
+    <image class="message-left" src="/images/avatar/avatar.jpg"></image>
+    <view class="message-content">
+      <text class="name">张三</text>
+      <text class="content">你有一条新消息</text>
+      <text class="time">6天前</text>
+    </view>
+    <image class="message-right" src="/images/avatar/avatar.jpg"></image>
+  </view>
+</view>

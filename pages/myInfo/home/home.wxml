@@ -8,8 +8,8 @@
   <view>
     <view class="btn">
       <button catchtap="publish">我发布的宝贝</button>
-      <button>我关注的宝贝</button>
-      <button>我的留言</button>
+      <button catchtap="like">我关注的宝贝</button>
+      <button catchtap="message">我的留言</button>
       <button>关于我们</button>
       <button class="logout">退出登录</button>
     </view>
